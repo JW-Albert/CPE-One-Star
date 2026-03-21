@@ -8,10 +8,12 @@ Step 2. 解題思路
 
 import sys
 
-for line in sys.stdin:
-    data = line.split()
+for line in sys.stdin.readline():
+    data = line.strip()
     if not data:
         continue
+
+    data = line.split()
 
     x ,y = map(int ,data)
 
